@@ -8,7 +8,7 @@ if ($mysqli->connect_error) {
 }
 
 // Создание таблицы, если она не существует
-$sql = "CREATE TABLE students (
+$sql = "CREATE TABLE students IF NOT EXISTS(
     ID INT AUTO_INCREMENT PRIMARY KEY,
     FIO VARCHAR(255) NOT NULL,
     Number_zach_kn VARCHAR(50) NOT NULL,
