@@ -14,4 +14,4 @@ ENV MYSQL_HOST=postgres.railway.internal \
 COPY index.php /var/www/html/
 
 # Открываем порты
-EXPOSE 80
+EXPOSE 8081
