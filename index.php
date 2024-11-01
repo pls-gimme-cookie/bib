@@ -1,7 +1,7 @@
 <?php
 // Подключение к базе данных
 //$mysqli = new mysqli("mysql", "root", "root", "mydb");
-$mysqli = new mysqli("postgres.railway.internal", "postgres", "ezYSBIUSpCcnUDLAMJEYQuHRpiEenPbE", "railway");
+$mysqli = new mysqli("mysql.railway.internal", "root", "jSMjuOevcDscmIkXPQVTVOJtPNKliSVS", "railway");
 // Проверка соединения
 if ($mysqli->connect_error) {
     die("Ошибка подключения: " . $mysqli->connect_error);
